@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
-name: Discord Notification
+  name: Discord Notification
     env:
       DISCORD_WEBHOOK_URL: ${{ secrets.NOTIFY_ME }}
     run: |
