@@ -1,14 +1,14 @@
-name: Discord Notification
-
+name: notify discord users on updates
 on: [push]
-
 jobs:
-  notify:
+  send_notif:
     runs-on: ubuntu-latest
     steps:
-    
-  name: Discord Notification
-    env:
-      DISCORD_WEBHOOK_URL: ${{ secrets.NOTIFY_ME }}
-    run: |
-      curl -H "Content-Type: application/json" \-X POST \-d "{"content": "New push event in repository: $GITHUB_REPOSITORY by $GITHUB_ACTOR"}" \$DISCORD_WEBHOOK_URL
+    - name: send notification to discord users
+      run: |
+        curl -H "Content-Type: application/json" \
+            -X POST \
+            -d '{
+              "content": "🚀 New push detected in the repository! **${{ github.actor }}** made a **${{ github.action }}** on **${{ github.repository }}**"
+            }' \
+            "${{ secrets.NOTIFY_ME }}"
