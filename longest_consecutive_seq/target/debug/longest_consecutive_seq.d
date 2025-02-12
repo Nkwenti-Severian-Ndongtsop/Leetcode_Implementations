@@ -1,0 +1,1 @@
+/home/nkwenti-severian/Desktop/projects/rust-projects/longest_consecutive_seq/target/debug/longest_consecutive_seq: /home/nkwenti-severian/Desktop/projects/rust-projects/longest_consecutive_seq/src/main.rs
