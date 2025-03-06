@@ -1,6 +1,6 @@
 // A function to get the fibonacci sequence
 function fibonacciSequence(integer){
-    sequence = [0,1];
+     sequence = [0,1];
     if (integer === 0){
       return 0
     } else for ( i=2; i<=integer; i++ ){
@@ -8,4 +8,4 @@ function fibonacciSequence(integer){
     }
 return sequence;
 }
-console.log(fibonacciSequence(20));
+console.log(fibonacciSequence());

@@ -1,0 +1,1 @@
+/home/nkwenti-severian/Desktop/projects/Leetcode_Implementations/palindrome_string_bool/target/debug/palindrome_string_bool: /home/nkwenti-severian/Desktop/projects/Leetcode_Implementations/palindrome_string_bool/src/main.rs
