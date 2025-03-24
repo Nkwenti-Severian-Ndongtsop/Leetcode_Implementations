@@ -1,29 +1,31 @@
 
 
 
-fn climbing_stairs(num: u32) -> u32 {
-
-    if num == 2 {
+fn climbing_stairs(n: i32) -> i32 {
+    if n == 2 {
         return 2
     }
-    fn factorial(n: u32) -> u32 {
+    if n==1 {
+        return 1
+    }
+    fn factorial(n: i32) -> i32 {
         let mut result = 1;
         if n == 0 || n == 1 {
             return 1
         }
-        for i in 1..=n {
+        for i in 2..=n {
             result = result * i
         }
         result
     }
 
-    let result = factorial(num) / (factorial(2) * factorial(num - 2));
+    let result = factorial(n) / (factorial(2) * factorial(n - 2));
     result
 }
 
 
 
 fn main() {
-    let val = 3;
+    let val = 4;
     println!("The climbing_stairs of {} is: {}", val, climbing_stairs(val));
 }
