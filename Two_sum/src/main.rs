@@ -1,17 +1,18 @@
-fn main() {
-    let array = [2, 7, 11, 15];
-    let target = 9;
-    let mut count = 0;
-    let mut result: [usize; 2] = [0, 0];
-    loop {
-       if count >= array.len() {
-        break;
-       } else if array[count] + array[count + 1] == target{
-        result =  [count, count + 1];
-        break;
-       }
-        count += 1;
+fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
+    for i in 0..nums.len() - 1 {
+        for j in i + 1..nums.len() {
+            if (target - nums[j]) == nums[i] {
+                return vec![i as i32, j as i32];
+            }
+        }
     }
-        println!("The index of target is {:?}", result)
+    vec![]
+}
 
-       }
+fn main() {
+    let array = vec![2,7,11,15];
+    let target = 9;
+    let result = two_sum(array, target);
+
+    println!("The index of target is {:?}", result)
+}
