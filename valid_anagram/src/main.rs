@@ -1,9 +1,9 @@
-fn valid_anagram(string1: &str, string2: &str) -> bool {
+fn valid_anagram(s: String, t: String) -> bool {
 
     // "rat"    "car"
 
-    let mut new_string1: Vec<char> = string1.chars().collect();
-    let mut new_string2: Vec<char> = string2.chars().collect();
+    let mut new_string1: Vec<char> = s.chars().collect();
+    let mut new_string2: Vec<char> = t.chars().collect();
 
     for i in 0..new_string1.len() - 1 {
         

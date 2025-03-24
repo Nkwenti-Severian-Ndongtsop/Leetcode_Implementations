@@ -1,16 +1,15 @@
-use std::collections::HashMap;
 
-fn single_number(mut values: Vec<u32>) -> u32 {
-    for i in 0..values.len() - 2 {
-        for j in i + 1..values.len() - 1 {
-            if values[i] == values[j] {
-                values.remove(i);
-                values.remove(j);
+fn single_number(mut nums: Vec<i32>) -> i32 {
+    for i in 0..nums.len() - 2 {
+        for j in i + 1..nums.len() - 1 {
+            if nums[i] == nums[j] {
+                nums.remove(i);
+                nums.remove(j);
                 break;
             }
         }
     }
-    values[0]
+    nums[0]
 }
 
 fn main() {
