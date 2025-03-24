@@ -1,12 +1,12 @@
 
-fn palindrom(string: &str) -> bool {
+fn palindrom(s: &str) -> bool {
 
-    let filtered: String = string
+    let filtered: String = s
     .chars()
     .filter(|&s| s.is_alphanumeric())
     .map(|s| s.to_ascii_lowercase()).collect();
 
-    filtered == string
+    filtered == s
     .chars()
     .filter(|&s| s.is_alphanumeric())
     .map(|s| s.to_ascii_lowercase()).rev().collect::<String>()
