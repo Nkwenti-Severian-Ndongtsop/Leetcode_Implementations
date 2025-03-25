@@ -1,17 +1,19 @@
 
 fn single_number(mut nums: Vec<i32>) -> i32 {
-    for i in 0..nums.len() - 2 {
-        for j in i + 1..nums.len() - 1 {
-            if nums[i] == nums[j] {
-                nums.remove(i);
-                nums.remove(j);
-                break;
-            }
+    // 2, 2, 1
+    nums.sort();
+    println!("{:?}", nums);
+
+    for i in 0..nums.len() {
+        if nums[i] != nums[i+1] {
+            return nums[i]
+        } else if nums[i] != nums[i+1] && i == nums.len() - 1{
+            return nums[i + 1]
         }
     }
-    nums[0]
+0
 }
 
 fn main() {
-    println!("The single number is: {}", single_number(vec![2, 2, 1]));
+    println!("The single number is: {}", single_number(vec![4,1,2,1,2]));
 }

@@ -1,12 +1,15 @@
-fn search_insert(values: Vec<i32>, target: i32) -> i32 {
-    if !values.is_empty() {
-        for i in 0..values.len() - 1 {
-             if values[i] >= target {
+fn search_insert(nums: Vec<i32>, target: i32) -> i32 {
+    let len = nums.len() as i32;
+    if !nums.is_empty() {
+        for i in 0..nums.len() - 1 {
+             if nums[i] >= target {
                 return i as i32;
+            } else if target > nums[i] && i as i32 == len {
+                return len
             }
         }
     }
-    values.len() as i32
+    0
 }
 
 fn main() {
