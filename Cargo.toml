@@ -6,5 +6,5 @@ members = [
     "climbing_stairs",
     "divide_two_int",
     "happy_number",
-    "multiply_strings", "Contains_duplicates_2",
+    "multiply_strings", "Contains_duplicates_2", "missing_number",
 ]
