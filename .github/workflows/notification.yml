@@ -1,5 +1,5 @@
 name: notify discord users on updates
-on: [push]
+on: [pull_request]
 jobs:
   send_notif:
     runs-on: ubuntu-latest
