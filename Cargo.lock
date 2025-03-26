@@ -7,6 +7,22 @@ name = "Contains_duplicates_2"
 version = "0.1.0"
 
 [[package]]
+name = "Intersection_of_two_arrays"
+version = "0.1.0"
+
+[[package]]
+name = "Move_Zeroes"
+version = "0.1.0"
+
+[[package]]
+name = "Remove_duplicate_from_sorted_array"
+version = "0.1.0"
+
+[[package]]
+name = "Two_sum"
+version = "0.1.0"
+
+[[package]]
 name = "addr2line"
 version = "0.24.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -93,6 +109,10 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
 name = "climbing_stairs"
+version = "0.1.0"
+
+[[package]]
+name = "contains_duplicate"
 version = "0.1.0"
 
 [[package]]
@@ -516,6 +536,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "length_of_last_word"
+version = "0.1.0"
+
+[[package]]
 name = "libc"
 version = "0.2.171"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -550,10 +574,34 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "13dc2df351e3202783a1fe0d44375f7295ffb4049267b0f3018346dc122a1d94"
 
 [[package]]
+name = "longest-common-string"
+version = "0.1.0"
+
+[[package]]
+name = "longest_consecutive_seq"
+version = "0.1.0"
+
+[[package]]
+name = "longest_palindrome"
+version = "0.1.0"
+
+[[package]]
+name = "majority_element"
+version = "0.1.0"
+
+[[package]]
+name = "median_of_two_sorted_array"
+version = "0.1.0"
+
+[[package]]
 name = "memchr"
 version = "2.7.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
+
+[[package]]
+name = "merge_sorted_array"
+version = "0.1.0"
 
 [[package]]
 name = "mime"
@@ -666,6 +714,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "palindrome_bool"
+version = "0.1.0"
+
+[[package]]
+name = "palindrome_string_bool"
+version = "0.1.0"
+
+[[package]]
 name = "parking_lot"
 version = "0.12.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -687,6 +743,14 @@ dependencies = [
  "smallvec",
  "windows-targets 0.52.6",
 ]
+
+[[package]]
+name = "pascal_triangle"
+version = "0.1.0"
+
+[[package]]
+name = "pascal_triangle_2"
+version = "0.1.0"
 
 [[package]]
 name = "percent-encoding"
@@ -711,6 +775,14 @@ name = "pkg-config"
 version = "0.3.32"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7edddbd0b52d732b21ad9a5fab5c704c14cd949e5e9a1ec5929a24fded1b904c"
+
+[[package]]
+name = "plus_one"
+version = "0.1.0"
+
+[[package]]
+name = "power_of_two"
+version = "0.1.0"
 
 [[package]]
 name = "proc-macro2"
@@ -744,6 +816,10 @@ checksum = "0b8c0c260b63a8219631167be35e6a988e9554dbd323f8bd08439c8ed1302bd1"
 dependencies = [
  "bitflags 2.9.0",
 ]
+
+[[package]]
+name = "remove_elements"
+version = "0.1.0"
 
 [[package]]
 name = "reqwest"
@@ -784,6 +860,10 @@ dependencies = [
  "web-sys",
  "winreg",
 ]
+
+[[package]]
+name = "rotate_array"
+version = "0.1.0"
 
 [[package]]
 name = "rustc-demangle"
@@ -839,6 +919,10 @@ name = "scopeguard"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49"
+
+[[package]]
+name = "search_insert"
+version = "0.1.0"
 
 [[package]]
 name = "security-framework"
@@ -923,6 +1007,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "single_number"
+version = "0.1.0"
+
+[[package]]
 name = "slab"
 version = "0.4.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -946,6 +1034,10 @@ dependencies = [
  "libc",
  "windows-sys 0.52.0",
 ]
+
+[[package]]
+name = "square_root"
+version = "0.1.0"
 
 [[package]]
 name = "stable_deref_trait"
@@ -1145,6 +1237,10 @@ name = "utf8_iter"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b6c140620e7ffbb22c2dee59cafe6084a59b5ffc27a8859a5f0d494b5d52b6be"
+
+[[package]]
+name = "valid_palindrome"
+version = "0.1.0"
 
 [[package]]
 name = "vcpkg"
