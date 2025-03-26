@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 members = [
-    "script/update_readme",
+    "script/readme",
     "best_time",
     "climbing_stairs",
     "contains_duplicate",
