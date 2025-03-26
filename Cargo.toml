@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "script/update_readme",
+    "best_time",
+    "climbing_stairs",
+    "divide_two_int",
+    "happy_number",
+    "multiply_strings", "Contains_duplicates_2",
+]
