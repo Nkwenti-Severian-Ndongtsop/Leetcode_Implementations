@@ -1,9 +1,6 @@
 name: Update LeetCode Progress
 
-on:
-  schedule:
-    - cron: "0 0 * * *"  # Runs every day at midnight UTC
-  workflow_dispatch: # Allow manual trigger
+on: [pull_request]
 
 jobs:
   update-readme:
