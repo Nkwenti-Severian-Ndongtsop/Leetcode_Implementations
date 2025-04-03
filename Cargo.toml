@@ -32,5 +32,5 @@ members = [
     "multiply_strings",
     "Contains_duplicates_2",
     "Move_Zeroes",
-    "Intersection_of_two_arrays", "third_maximum_number",
+    "Intersection_of_two_arrays", "third_maximum_number", "add_digits",
 ]
