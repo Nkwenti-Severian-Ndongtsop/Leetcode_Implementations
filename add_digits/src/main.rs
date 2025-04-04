@@ -19,3 +19,4 @@ fn main() {
     let num = 38;
     println!("{}", add_digits(num));
 }
+
