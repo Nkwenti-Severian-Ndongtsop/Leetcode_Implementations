@@ -524,6 +524,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "469fb0b9cefa57e3ef31275ee7cacb78f2fdca44e4765491884a2b119d4eb130"
 
 [[package]]
+name = "is_monotonic"
+version = "0.1.0"
+
+[[package]]
 name = "itoa"
 version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1041,6 +1045,10 @@ dependencies = [
 
 [[package]]
 name = "square_root"
+version = "0.1.0"
+
+[[package]]
+name = "squares_of_sorted_array"
 version = "0.1.0"
 
 [[package]]
