@@ -12,7 +12,7 @@ pub fn is_monotonic(nums: Vec<i32>) -> bool {
             is_increasing = false;
         }
     }
-    is_increasingl
+    is_increasing
 }
 
 
